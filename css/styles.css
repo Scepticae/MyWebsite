@@ -1,0 +1,90 @@
+/***** Tag Selectors *****/
+
+body {
+  font-family: Montserrat, Ariel, Calibri;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: Handlee, Merriweather, Montserrat;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Merriweather, Ariel;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  border-top-width: 7px;
+  border-top-style: dotted;
+  border-top-color: #f77f00;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/***** Class Selectors *****/
+
+.top-container {
+  background-color: #f77f00;
+}
+
+.section-left {
+  display: inline-block;
+  width: 33%;
+  margin: auto;
+}
+
+.section-middle {
+  display: inline-block;
+  width: 33%;
+}
+
+.middle-content {
+  position: relative;
+  bottom: 70px;
+}
+
+.section-right {
+  display: inline-block;
+  width: 33%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 50px auto;
+}
+
+.profile {
+  width: 60%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #f77f00;
+  padding: 50px;
+}
+
+.text-underline {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/***** Images *****/
+
+.ut-image {
+  background-color: #f77f00;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px;
+  margin: 50px 30px 30px;
+}
+
+.profileImg {
+  border-radius: 50%;
+}
